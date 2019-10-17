@@ -1,0 +1,20 @@
+{
+  "to" : {
+    "Thomas De Brauwer(ITENIUM)" : "thomas.de.brauwer@itenium.be",
+    "Thomas De Brauwer(MSN)" : "thomasdebrauwer@msn.com",
+    "Thomas De Brauwer(GMAIL)" : "thomasdebrauwer96@gmail.com"
+  },
+  "cc" : {
+    "Thomas De Brauwer(ITENIUM)" : "thomas.de.brauwer@itenium.be",
+    "Thomas De Brauwer(MSN)" : "thomasdebrauwer@msn.com",
+    "Thomas De Brauwer(GMAIL)" : "thomasdebrauwer96@gmail.com"
+  },
+  "bcc" : {
+    "Thomas De Brauwer(ITENIUM)" : "thomas.de.brauwer@itenium.be",
+    "Thomas De Brauwer(MSN)" : "thomasdebrauwer@msn.com",
+    "Thomas De Brauwer(GMAIL)" : "thomasdebrauwer96@gmail.com"
+  },
+  "subject" : "Itenium test mail",
+  "html" : "",
+  "attachments" : []
+}

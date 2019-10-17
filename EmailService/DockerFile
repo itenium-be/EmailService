@@ -1,0 +1,4 @@
+FROM java:8
+EXPOSE 8080
+ADD /target/EmailService-0.1.jar EmailService.jar
+ENTRYPOINT ["java", "-jar","EmailService.jar"]
