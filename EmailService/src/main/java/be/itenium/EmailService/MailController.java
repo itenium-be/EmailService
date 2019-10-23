@@ -22,7 +22,7 @@ public class MailController
     @Value("${templateId}")
     private String EMAIL_TEMPLATE_ID;
 
-    @GetMapping("/sendgrid/test")
+    @GetMapping("/sendgrid")
     public String sendEmailWithSendGrid(@RequestParam("msg") String message)
     {
         Email from = new Email("thomas.de.brauwer@itenium.be");
@@ -60,6 +60,12 @@ public class MailController
             System.out.println(ex.getMessage());
         }
         return "email was succesfully send";
+    }
+
+    @GetMapping("/sendgrid/test")
+    public String sendEmailWithSendGridAndJson(@RequestParam("msg") String message)
+    {
+        return "";
     }
 
 }
