@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.List;
 import java.util.Map;
 
-public class Email
+public class IteniumEmail
 {
     private Map<String,String> to;
     private Map<String,String> cc;

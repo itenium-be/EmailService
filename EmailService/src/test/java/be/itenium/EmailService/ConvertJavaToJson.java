@@ -41,15 +41,15 @@ public class ConvertJavaToJson
         files.add(pdf);
 
 
-        Email email = new Email();
-        email.setTo(toMap);
-        email.setCc(ccMap);
-        email.setBcc(bccMap);
-        email.setSubject("Test");
-        email.setHtml("");
-        email.setAttachments(files);
+        IteniumEmail iteniumEmail = new IteniumEmail();
+        iteniumEmail.setTo(toMap);
+        iteniumEmail.setCc(ccMap);
+        iteniumEmail.setBcc(bccMap);
+        iteniumEmail.setSubject("Test");
+        iteniumEmail.setHtml("");
+        iteniumEmail.setAttachments(files);
 
-        String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(email);
+        String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(iteniumEmail);
         System.out.println(json);
     }
 }

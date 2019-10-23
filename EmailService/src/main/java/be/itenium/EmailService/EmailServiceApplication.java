@@ -8,8 +8,6 @@ public class EmailServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmailServiceApplication.class, args);
-		//MailController mailController = new MailController();
-		//System.out.println(mailController.sendEmailWithSendGrid("Message"));
 	}
 
 }
